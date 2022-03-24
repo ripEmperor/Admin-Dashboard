@@ -11,36 +11,56 @@ body {
 }
 
 .sidebar {
-    padding-left: 20px;
+    
     grid-column: 1/2;
     height: 100vh;
     background-color: lightblue;
 }
 
+.sidebarListTop, .sidebarListBot {
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.logo {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
 .header {
+    position: relative;
+    background-color: white;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column: 2/4;
+    grid-column: 2/5;
     grid-row: 1/2;
     margin-right: 75px;
     margin-left: 50px;
-    padding-top: 35px;
+    padding-top: 25px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    margin:0;
 }
 
 .yourProjects {
     padding-top: 20px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(197, 212, 226);
     grid-column: 2/4;
 }
 
 .mainContainer {
-    background-color: rgb(206, 206, 206);
     padding: 20px;
     position: relative;
     padding-top: 50px;
     padding-right: 75px;
-
+    background-color: rgb(197, 212, 226);
     display: grid;
     grid-template-columns: 1fr 400px;
     grid-template-rows: 345px 395px;
@@ -116,7 +136,11 @@ body {
 }
 
 #searchBar {
-    width: 75%
+    position: absolute;
+    width: 50%;
+    top: 25px;
+    height: 25px;
+    margin-left: 10px;
 }
 
 .title1 {
