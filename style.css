@@ -1,6 +1,10 @@
+body {
+    margin: 0;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 250px 1fr 150px;
+    grid-template-columns: 350px 1fr 150px;
     grid-template-rows: 150px 1fr;
 }
 
@@ -8,6 +12,7 @@
     grid-column: 1/2;
     grid-row: 1/3;
     height: 100vh;
+    background-color: lightblue;
 }
 
 .header {
@@ -19,17 +24,46 @@
     margin-right: 75px;
 }
 
+.mainContainer {
+    margin: 25px;
+    margin-bottom: -25px;
+
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 325px 350px;
+}
+
 .mainProjects {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 1/2;
     display: grid;
     grid-template-columns: 450px 450px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 225px 225px 225px;
+}
+
+.announcements {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.trending {
+    margin-top: 25px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.trend {
+    border: solid 1px red;
 }
 
 .project {
     border: solid 1px red;
+}
 
+.announcement {
+    border: solid 1px red;
 }
 
 .hRow1 {
