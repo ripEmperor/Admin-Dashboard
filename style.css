@@ -82,6 +82,16 @@ body {
     grid-row: 1/2;
 }
 
+.announcement:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.announcement:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .trending {
     margin-top: 50px;
     display: grid;
@@ -91,6 +101,8 @@ body {
 
 .trend {
     border: solid 1px red;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .project {
@@ -103,7 +115,7 @@ body {
 }
 
 .announcement {
-    border: solid 1px red;
+    background-color: white;
 }
 
 .hRow1 {
@@ -214,4 +226,52 @@ body {
     font-size: 18px;
     font-family: Roboto;
     color:rgba(46, 46, 46, 0.75)
+}
+
+.announcementTitle {
+    margin: 25px;
+    margin-bottom: -25px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.announcementContent {
+    width: 350px;
+    margin: 25px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: Roboto;
+    color:rgba(46, 46, 46, 0.75);
+}
+
+.announcementContent {
+    line-height: 30px;
+    background: linear-gradient(rgb(158, 158, 158), rgb(180, 180, 180)) bottom/100% 1px no-repeat;
+    padding-bottom: 0.2em; /* you may have to adjust this */
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    justify-self: start;
+}
+
+.Description {
+    grid-column: 2/3;
+    color: rgb(146, 146, 146);
+}
+
+.picture {
+    justify-self: center;
 }
