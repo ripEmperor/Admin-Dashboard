@@ -14,7 +14,7 @@ body {
     
     grid-column: 1/2;
     height: 100vh;
-    background-color: lightblue;
+    background-color: rgb(130, 162, 223);
 }
 
 .sidebarListTop, .sidebarListBot {
@@ -100,7 +100,6 @@ body {
 }
 
 .trend {
-    border: solid 1px red;
     background-color: white;
     border-radius: 10px;
 }
@@ -130,7 +129,7 @@ body {
 
 .left {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40px 1fr;
     justify-self: start;
 }
 
@@ -139,7 +138,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     justify-self: end;
     align-self: start;
-    grid-gap: 75px;
+    grid-gap: 30px;
 }
 
 .greeting {
@@ -150,7 +149,7 @@ body {
 .user {
     justify-self: end;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 50px 50px 1fr;
 }
 
 #searchBar {
@@ -165,7 +164,6 @@ body {
     margin-left: 45px;
     position: absolute;
     align-self: start;
-    border: solid 1px red;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
@@ -176,7 +174,6 @@ body {
     position: absolute;
     justify-self: end;
     right: 300px;
-    border: solid 1px red;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
@@ -187,20 +184,19 @@ body {
     position: absolute;
     justify-self: end;
     right: 382px;
-    top: 405px;
-    border: solid 1px red;
+    top: 406px;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
 }
 
 .headBtn {
-    background-color: lightblue;
-    border-radius: 10px;
+    background-color: rgb(102, 152, 245);
+    border-radius: 20px;
     outline: none;
     border: none;
-    width: 75px;
-    height: 30px;
+    width: 85px;
+    height: 40px;
 }
 
 .buttons {
@@ -274,4 +270,7 @@ body {
 
 .picture {
     justify-self: center;
+}
+
+.profilePic2 {
 }
