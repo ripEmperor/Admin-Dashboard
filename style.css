@@ -16,6 +16,7 @@
     grid-template-rows: 1fr 1fr;
     grid-column: 2/4;
     grid-row: 1/2;
+    margin-right: 75px;
 }
 
 .mainProjects {
@@ -39,7 +40,24 @@
 .hRow2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-self: start;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: end;
+    align-self: start;
+    grid-gap: 75px;
+}
+
+.headBtn {
+    width: 125px;
 }
 
 .greeting {
